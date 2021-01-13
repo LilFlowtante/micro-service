@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "5b295f4c-a0fa-4a91-98e9-32e73993c1c9",
+		"name": "ArticleService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:9090/Articles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"nom\": \"Poney en bois cracheur de feu\",\r\n    \"prix\": 145,\r\n    \"prixAchat\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9090/Articles",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"Articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/Articles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/Articles",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"Articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/Articles/42",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/Articles/42",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"Articles",
+						"42"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/AdminArticles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/AdminArticles",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"AdminArticles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/Articles/order",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/Articles/order",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"Articles",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/test/articles/500",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/test/articles/500",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"test",
+						"articles",
+						"500"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/test/articles/like/Ordi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/test/articles/like/Ordi",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"test",
+						"articles",
+						"like",
+						"Ordi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/Articles/5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/Articles/5",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"Articles",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/Articles",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"nom\": \"Ordinateur portable modifié!\",\r\n    \"prix\": 350,\r\n    \"prixAchat\": 250\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9090/Articles",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"Articles"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
