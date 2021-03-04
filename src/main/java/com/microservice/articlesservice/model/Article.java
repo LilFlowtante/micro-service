@@ -4,10 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-import com.fasterxml.jackson.annotation.JsonFilter;
-
 @Entity
-//@JsonFilter("monFiltreDynamique")
 public class Article {
 	
 	@Id
